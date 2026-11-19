@@ -3,20 +3,4 @@ $login = $_GET("id");
 $password = $_GET("pwd");
 ?>
 
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-  <meta charset="UTF-8">
-  <title>Ma page</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <header>
-    <h1>Connexion</h1>
-  </header>
-  <form action="get.php" method="GET">
-    <p>Identifiant : </p>
-    <input type="text" name="id">
-    <p>Mot de passe : </p>
-    <input type="text" name="pwd">
-</body>
+
